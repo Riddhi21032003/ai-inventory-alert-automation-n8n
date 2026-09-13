@@ -17,7 +17,7 @@ This project automates inventory tracking by detecting low-stock items, generati
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. Schedule trigger runs weekly
 2. Inventory data is fetched from Google Sheets
