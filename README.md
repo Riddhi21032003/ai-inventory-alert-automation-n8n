@@ -1,19 +1,19 @@
-# 📦 AI Inventory Alert Automation (n8n)
+#  AI Inventory Alert Automation (n8n)
 
-🚀 A production-ready AI-powered inventory monitoring system built using **n8n**, **Groq LLM**, **Google Sheets**, and **Gmail**.
+ A production-ready AI-powered inventory monitoring system built using **n8n**, **Groq LLM**, **Google Sheets**, and **Gmail**.
 
 This project automates inventory tracking by detecting low-stock items, generating intelligent alerts using AI, and sending notifications via email—without writing backend code.
 
 ---
 
-## 🎯 Project Highlights
+##  Project Highlights
 
-* ⏰ Automated **weekly inventory monitoring**
-* 📊 Reads real-time data from **Google Sheets**
-* ⚠️ Detects items where **Stock < Threshold**
-* 🤖 Uses AI to generate structured alert messages
-* 📧 Sends alerts automatically via Gmail
-* 🧠 Demonstrates **AI agent + workflow automation**
+*  Automated **weekly inventory monitoring**
+*  Reads real-time data from **Google Sheets**
+*  Detects items where **Stock < Threshold**
+*  Uses AI to generate structured alert messages
+*  Sends alerts automatically via Gmail
+*  Demonstrates **AI agent + workflow automation**
 
 ---
 
@@ -30,7 +30,7 @@ This project automates inventory tracking by detecting low-stock items, generati
 
 ---
 
-## 🏗️ Architecture Diagram
+##  Architecture Diagram
 
 ```
 Schedule Trigger
@@ -48,23 +48,23 @@ Gmail (Send Alert Email)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🔹 Workflow Overview
+###  Workflow Overview
 
 <img width="2048" height="1062" alt="workflow_inventory_check" src="https://github.com/user-attachments/assets/75b1ae38-b258-40eb-b6b5-fa87929a4e10" />
 
-### 🔹 Sample Data
+###  Sample Data
 
 <img width="2048" height="1183" alt="email_alert_inventory_data" src="https://github.com/user-attachments/assets/a45f9df6-d401-4e56-ba39-4e8131696496" />
 
-### 🔹 Email Alert Output
+###  Email Alert Output
 
 <img width="2048" height="450" alt="email_alert_output" src="https://github.com/user-attachments/assets/1a8efa63-8efe-492c-bd1f-4e977238c6dc" />
 
 ---
 
-## 🧩 Workflow Components
+##  Workflow Components
 
 | Component        | Purpose                      |
 | ---------------- | ---------------------------- |
@@ -78,7 +78,7 @@ Gmail (Send Alert Email)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Automation:** n8n
 * **AI Model:** Groq LLM
@@ -87,7 +87,7 @@ Gmail (Send Alert Email)
 
 ---
 
-## 📊 Google Sheets Setup
+##  Google Sheets Setup
 
 Create a sheet with these columns:
 
@@ -105,7 +105,7 @@ Item Name | Stock | Threshold | Supplier
 
 ---
 
-## ⚙️ Setup Guide
+##  Setup Guide
 
 ### 1. Import Workflow
 
@@ -132,10 +132,10 @@ Item Name | Stock | Threshold | Supplier
 
 ---
 
-## 💬 Example Output
+##  Example Output
 
 ```
-⚠️ Low Stock Alert:
+ Low Stock Alert:
 
 - Coffee Beans: 5 left (need 10). Recommend reordering from Arabica Roasters.
 - Milk: Out of stock (need 8). Recommend reordering from Local Dairy Farm.
@@ -143,7 +143,7 @@ Item Name | Stock | Threshold | Supplier
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-inventory-alert-automation-n8n/
@@ -158,7 +158,7 @@ ai-inventory-alert-automation-n8n/
 
 ---
 
-## 🧑‍💻 What This Project Shows
+##  What This Project Shows
 
 * AI agent workflow design
 * Real-world automation use case
@@ -168,7 +168,7 @@ ai-inventory-alert-automation-n8n/
 
 ---
 
-## ⭐ Future Improvements
+##  Future Improvements
 
 * Add Slack / WhatsApp alerts
 * Add auto-reorder system
